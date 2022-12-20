@@ -34,6 +34,7 @@ function Travel() {
                                 <h4 className='text-center'>{val.name}</h4>
                                 <img src={val.coverimage} alt={val.name}></img>
                                 <p className='text-wrap'>{val.detail}</p>
+                               
                             </div>
                         </div>
                         )
