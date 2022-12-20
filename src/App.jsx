@@ -266,7 +266,8 @@ function App() {
           <hr />
           <div className="row">
             <div className="col">
-              <table className="table table-hover text-center">
+            <div class="table-wrapper-scroll-y my-custom-scrollbar">
+              <table className="table table-hover text-center table-scroll">
                 <thead>
                   <tr>
                     <th>Name</th>
@@ -314,6 +315,7 @@ function App() {
                   })}
                 </tbody>
               </table>
+              </div>
             </div>
           </div>
         </div>
