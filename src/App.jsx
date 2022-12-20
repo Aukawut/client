@@ -99,7 +99,7 @@ function App() {
         position: position,
       })
       .then((res) => {
-        console.log(res.data)
+        // console.log(res.data)
         if (!res.data.err) {
           Swal.fire({
             icon: "success",
@@ -116,7 +116,7 @@ function App() {
     axios
       .post("https://upset-seal-scarf.cyclic.app/getperuser", { id: id })
       .then((res) => {
-        console.log(res.data.results)
+        // console.log(res.data.results)
         setFname(res.data.results[0].fname)
         setLname(res.data.results[0].lname)
         setEmail(res.data.results[0].email)

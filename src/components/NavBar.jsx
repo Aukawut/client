@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 function NavBar() {
   const navigate = useNavigate();
   const token = localStorage.getItem("token")
-  console.log(typeof(token));
+  // console.log(typeof(token));
   const logout = () => {
     localStorage.removeItem("token")
     navigate('/signin')

@@ -11,11 +11,11 @@ function Travel() {
                 }else{
                     setIsloading(false)
                 }
-                console.log(res.data.results);
+                // console.log(res.data.results);
                 setTravals(res.data.results)
             })
     },[])
-    console.log(isLoading);
+    // console.log(isLoading);
   return (
     <div>
 
